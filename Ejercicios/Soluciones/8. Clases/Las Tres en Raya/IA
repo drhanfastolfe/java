@@ -1,0 +1,53 @@
+
+LÓGICA IA LAS TRES EN RAYA
+==========================
+
+
+turno 2	
+	if pos 5 es mov valido
+		mover pos 5
+	else
+		mover a esquina
+		
+turno 4
+	if pos bloqueo existe
+		mover a pos ganadora para el jugador
+	else
+	    if pos bloquo esquina existe
+	        bloqueo esquina estratégica para jugador
+	    else
+	        mover a pos estratégica
+turno 6
+	if pos ganadora existe
+		mover a pos ganadora para ia
+	else
+		if pos bloqueadora existe
+			mover a pos bloqueadora
+		else
+			mover a pos estratégica
+			
+turno 8 
+	if pos ganadora existe
+		mover a pos ganadora para ia
+	else
+		if pos bloqueadora existe
+			mover a pos bloqueadora
+		else
+			mover a pos aleatoria
+
+
+
+turno 1
+    pos aleatoria
+turno 3
+    pos estrategica
+
+
+
+
+
+
+			
+			
+
+	
